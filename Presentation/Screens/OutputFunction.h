@@ -1,0 +1,5 @@
+#ifndef OUTPUTFUNCTION_H
+#define OUTPUTFUNCTION_H
+
+#endif
+

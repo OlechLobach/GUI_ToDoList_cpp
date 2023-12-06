@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{3ef35c1a-c8bd-4d70-9500-9f854410c3c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain">
+      <UniqueIdentifier>{2f61b50c-d213-4524-a15b-942b21a88ce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{39e6f4c0-1062-44ea-a538-1d2e19537b32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presentation">
+      <UniqueIdentifier>{9677918e-e288-49a7-bdd8-6b0959378875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Emtity">
+      <UniqueIdentifier>{31d32342-4984-49a2-924b-bd0172264267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Repository">
+      <UniqueIdentifier>{07ffede3-d5f2-44a2-b466-8fb2d481aeac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\DataSource">
+      <UniqueIdentifier>{4c7f44dc-aa80-4105-b009-b68b34533c06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\DataSource\Remote">
+      <UniqueIdentifier>{75f07417-6d67-42f0-b0bb-2f39f59cf60b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presentation\Screens">
+      <UniqueIdentifier>{ff4b37c7-c166-411f-bbcb-e1e123e7d18d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presentation\Function">
+      <UniqueIdentifier>{d11b4df7-94af-4ece-8386-76d8c1690fef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Main">
+      <UniqueIdentifier>{cf54a2f5-bc09-47b0-b806-e00dc2a51193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Library">
+      <UniqueIdentifier>{2851f0a5-f38a-4a5c-8a45-ebf3ff1fb82a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\Library\lib.h">
+      <Filter>Core\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\Repository\Obj_func.h">
+      <Filter>Domain\Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\Emtity\Descript_Obj.h">
+      <Filter>Domain\Emtity</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\DataSource\Remote\DBconnection.h">
+      <Filter>Data\DataSource\Remote</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\Function\Function.h">
+      <Filter>Presentation\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\Screens\OutputFunction.h">
+      <Filter>Presentation\Screens</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core\Main\main.cpp">
+      <Filter>Core\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\Repository\Obj_Func.cpp">
+      <Filter>Domain\Repository</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\Emtity\Descript_Obj.cpp">
+      <Filter>Domain\Emtity</Filter>
+    </ClCompile>
+    <ClCompile Include="Presentation\Function\Function.cpp">
+      <Filter>Presentation\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="Presentation\Screens\OutputFunction.cpp">
+      <Filter>Presentation\Screens</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
